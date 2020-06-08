@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TableTestScript" max_length="40" name="x_58872_needit_tabletestscript" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other_field" max_length="100" name="otherfield" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="100" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Username" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="100" name="u_string_3" type="string"/>
+        <element label="Address" max_length="1000" name="u_translated_text_6" type="translated_text"/>
+    </element>
+</database>
